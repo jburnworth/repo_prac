@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="laser_shark_bucket"
-           fetch="git://bitbucket.org/lasersharks" />
+           fetch="git@bitbucket.org" />
 
   <remote  name ="james-personal"
            fetch="git://github.com/jburnworth" />
