@@ -2,13 +2,16 @@
 <manifest>
   <remote  name="bitbucket"
            fetch="git://bitbucket.org" />
+  <remote  name ="james-personal"
+           fetch="git://github.com/jburnworth" />
 
   <default revision="refs/heads/master"
            remote="bitbucket"
            sync-j="8" />
 
-  <project name="lasersharks/tegen" remote="bitbucket" path="sources/tegen"/>
+  <project name="Nand2Tetris" remote="james-personal" path="."/>
+  <!--project name="lasersharks/tegen" remote="bitbucket" path="sources/tegen"/>
   <project name="lasersharks/imx7-yocto-auto-start" remote="bitbucket" path="."/>
-  <project name="lasersharks/fstester" remote="bitbucket" path="downloads"/>
+  <project name="lasersharks/fstester" remote="bitbucket" path="downloads"/-->
 
 </manifest>
