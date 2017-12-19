@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org" />
+
+  <default revision="refs/heads/master"
+           remote="bitbucket"
+           sync-j="8" />
+
+  <project name="lasersharks/tegen" remote="bitbucket" path="sources/tegen"/>
+  <project name="lasersharks/imx7-yocto-auto-start" remote="bitbucket" path="."/>
+  <project name="lasersharks/fstester" remote="bitbucket" path="downloads"/>
+
+</manifest>
