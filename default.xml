@@ -7,7 +7,7 @@
            fetch="git://github.com/jburnworth" />
 
   <remote name="compulab"
-          fetch="git://github.com/compulab" />
+          fetch="https://github.com/compulab" />
 
   <default revision="refs/heads/master"
            remote="laser_shark_bucket"
