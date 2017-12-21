@@ -10,7 +10,8 @@
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
   <!-- Remotes added at Epilog to include the Compulab Layer and our own layers -->
-  <remote fetch="ssh://git@bitbucket.org"    name="bitbucket" />
+  <!-- remote fetch="ssh://git@bitbucket.org"    name="bitbucket" /-->
+  <remote fetch="/home/james/yocto" name="bitbucket" />
   <remote fetch="https://github.com/compulab" name="compulab" />
 
   <!-- Projects from fsl-arm-yocto-bsp by Freescale -->
@@ -36,7 +37,7 @@
   </project>
 
   <!-- Projects from Epilog and Compulab -->
-  <project remote="bitbucket" revision="d6be8eee305a4bee324920e2ec951f15524490fc" name="lasersharks/imx7-yocto-auto-start" path="." />
+  <project remote="bitbucket" revision="d6be8eee305a4bee324920e2ec951f15524490fc" name="imx7-yocto-auto-start" path="." />
   <project remote="compulab" revision="eb4a60f2e35b40a30897529945c31f548163bdf8" name="yocto-compulab-layer" path="sources/meta-compulab" />
 
 </manifest>
