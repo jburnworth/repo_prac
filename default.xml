@@ -9,10 +9,6 @@
   <remote name="compulab"
           fetch="https://github.com/compulab" />
 
-  <default revision="refs/heads/master"
-           remote="laser_shark_bucket"
-           sync-j="8" />
-
   <!--project name="Nand2Tetris" remote="james-personal" path="nandin"/>
 
   <project name="lasersharks/tegen" remote="laser_shark_bucket" path="sources/tegen"/-->
