@@ -6,6 +6,9 @@
   <remote  name ="james-personal"
            fetch="git://github.com/jburnworth" />
 
+  <remote name="compulab"
+          fetch="git://github.com/compulab" />
+
   <default revision="refs/heads/master"
            remote="laser_shark_bucket"
            sync-j="8" />
@@ -15,5 +18,6 @@
   <project name="lasersharks/tegen" remote="laser_shark_bucket" path="sources/tegen"/-->
   <project name="lasersharks/imx7-yocto-auto-start" remote="laser_shark_bucket" path="."/>
   <project name="lasersharks/fstester" remote="laser_shark_bucket" path="downloads"/>
+  <project name="yocto-compulab-layer" remote="compulab" path="sources/meta-compulab" />
 
 </manifest>
