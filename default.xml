@@ -11,7 +11,7 @@
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
   <!-- Remotes added at Epilog to include the Compulab Layer and our own layers -->
   <!-- remote fetch="ssh://git@bitbucket.org"    name="bitbucket" /-->
-  <remote fetch="/home/james/yocto" name="bitbucket" />
+  <remote fetch="file:///home/james/yocto" name="bitbucket" />
   <remote fetch="https://github.com/compulab" name="compulab" />
 
   <!-- Projects from fsl-arm-yocto-bsp by Freescale -->
