@@ -50,6 +50,6 @@
   <project remote="bitbucket" name="lasersharks/meta-epilog-dev" path="sources/meta-epilog-dev"/>
   <project remote="bitbucket" name="lasersharks/meta-epilog-skeleton" path="sources/meta-epilog-skeleton"/>
   -->
-  <project remote="compulab"  name="yocto-compulab-layer" revision="krogoth" path="sources/meta-compulab" />
+  <project remote="compulab"  name="yocto-compulab-layer" revision="krogoth/release" path="sources/meta-compulab" />
 
 </manifest>
