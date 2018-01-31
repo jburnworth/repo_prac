@@ -15,7 +15,7 @@
 
   <!-- Remotes added at Epilog to include the Compulab Layer and our own layers -->
   <remote fetch="ssh://git@bitbucket.org" name="bitbucket" />
-  <remote fetch="hhtps://github.com/compulab" name="compulab" />
+  <remote fetch="https://github.com/compulab" name="compulab" />
 
 
   <!-- LIST OF PROJECTS -->
