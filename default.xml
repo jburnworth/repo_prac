@@ -40,8 +40,11 @@
      <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
      <copyfile src="imx/README" dest="README-IMXBSP"/>
   </project>
-
+-->
   <!-- Projects added at Epilog to include the Compulab Layer and our own Layers -->
   <project remote="bitbucket" name="lasersharks/meta-epilog-bsp" path="sources/meta-epilog-bsp"/>
+  <project remote="bitbucket" name="lasersharks/meta-epilog-services" path="sources/meta-epilog-services"/>
+  <project remote="bitbucket" name="lasersharks/meta-epilog-dev" path="sources/meta-epilog-dev"/>
+  <project remote="bitbucket" name="lasersharks/meta-epilog-skeleton" path="sources/meta-epilog-skeleton"/>
 
 </manifest>
