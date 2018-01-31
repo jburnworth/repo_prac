@@ -10,11 +10,11 @@
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
-  <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
+  <remote fetch="git://github.com/meta-qt5" name="QT5"/>
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
 
   <!-- Remotes added at Epilog to include the Compulab Layer and our own layers -->
-  <reomte fetch="ssh://git@bitbucket.org"    name="bitbucket" />
+  <reomte fetch="ssh://git@bitbucket.org" name="bitbucket" />
 
 
   <!-- LIST OF PROJECTS -->
