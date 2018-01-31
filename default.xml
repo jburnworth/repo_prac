@@ -14,7 +14,7 @@
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
 
   <!-- Remotes added at Epilog to include the Compulab Layer and our own layers -->
-  <reomte fetch="ssh://git@bitbucket.org" name="bitbucket" />
+  <remote fetch="ssh://git@bitbucket.org" name="bitbucket" />
 
 
   <!-- LIST OF PROJECTS -->
