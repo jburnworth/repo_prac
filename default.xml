@@ -12,6 +12,7 @@
   <!--project name="Nand2Tetris" remote="james-personal" path="nandin"/>
 
   <project name="lasersharks/tegen" remote="laser_shark_bucket" path="sources/tegen"/-->
+  <!--project name="lasersharks/imx7-yocto-auto-start" revision="d6be8eee305a4bee324920e2ec951f15524490fc" remote="laser_shark_bucket" path="."/-->
   <project name="lasersharks/imx7-yocto-auto-start" revision="d6be8eee305a4bee324920e2ec951f15524490fc" remote="laser_shark_bucket" path="."/>
   <project name="lasersharks/fstester" revision="122a0ee12d06490cf4f1f1495ffecc608aa81fcb" remote="laser_shark_bucket" path="downloads"/>
   <project name="yocto-compulab-layer" revision="eb4a60f2e35b40a30897529945c31f548163bdf8" remote="compulab" path="sources/meta-compulab" />
