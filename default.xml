@@ -15,7 +15,7 @@
 
   <!-- Remotes added at Epilog to include the Compulab Layer and our own layers -->
   <remote fetch="ssh://git@bitbucket.org" name="bitbucket" />
-  <remote fetch="hhtps://github.com/compulab" name-"compulab" />
+  <remote fetch="hhtps://github.com/compulab" name="compulab" />
 
 
   <!-- LIST OF PROJECTS -->
@@ -47,6 +47,6 @@
   <project remote="bitbucket" name="lasersharks/meta-epilog-services" path="sources/meta-epilog-services"/>
   <project remote="bitbucket" name="lasersharks/meta-epilog-dev" path="sources/meta-epilog-dev"/>
   <project remote="bitbucket" name="lasersharks/meta-epilog-skeleton" path="sources/meta-epilog-skeleton"/>
-  <project remote="compulab"  name="yocto-compulab-layer" revision="eb4a60f2e35b40a30897529945c31f548163bdf8" remote="compulab" path="sources/meta-compulab" />
+  <project remote="compulab"  name="yocto-compulab-layer" revision="eb4a60f2e35b40a30897529945c31f548163bdf8" path="sources/meta-compulab" />
 
 </manifest>
