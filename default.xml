@@ -5,7 +5,7 @@
     sync-j="4"/>
 
   <!-- LIST OF REMOTES -->
-  <remote fetch="ssh://git@github.com:jburnworth/" name="james" />
+  <remote fetch="ssh://git@github.com/jburnworth/" name="james" />
   <remote fetch="ssh://git-dev@devdepot.epiloglaser.com:/opt/git/" name="local" />
 
   <!-- LIST OF PROJECTS -->
