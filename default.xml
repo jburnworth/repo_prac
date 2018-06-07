@@ -12,5 +12,6 @@
   <project remote="local" name="test-project" />
   <project remote="james" name="temp_proj_a" />
   <project remote="james" name="temp_proj_b" />
+  <project remote="james" name="another" />
 
 </manifest>
