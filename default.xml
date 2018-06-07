@@ -2,7 +2,8 @@
 <manifest>
 
   <default revision="refs/heads/master"
-    sync-j="4"/>
+    sync-j="4"
+    dest-branch="master"/>
 
   <!-- LIST OF REMOTES -->
   <remote fetch="ssh://git@github.com/jburnworth/" name="james" />
