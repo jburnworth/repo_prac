@@ -9,7 +9,7 @@
   <remote fetch="ssh://git-dev@devdepot.epiloglaser.com:/opt/git/" name="local" />
 
   <!-- LIST OF PROJECTS -->
-  <project remote="local" revision="rev1.0" name="test-project" />
+  <project remote="local" revision="master" name="test-project" />
   <project remote="james" name="temp_proj_a" />
   <project remote="james" name="temp_proj_b" />
   <project remote="james" name="another" />
